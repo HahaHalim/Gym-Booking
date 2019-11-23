@@ -33,6 +33,7 @@ header("location:dashboard.php");
 }
 				else
 				{
+					
 					echo "<script>alert('Invalid Username/Email or password');</script>";
 				}
 			}
