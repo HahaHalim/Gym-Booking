@@ -2,7 +2,7 @@
 session_start();
 include('includes/config.php');
 
-// date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Asia/Kolkata');
 include('includes/checklogin.php');
 check_login();
 $aid=$_SESSION['id'];
@@ -27,6 +27,7 @@ echo"<script>alert('Profile Updated Succssfully');</script>";
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -34,7 +35,7 @@ echo"<script>alert('Profile Updated Succssfully');</script>";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	<title>Profile Updation</title>
-<!-- 	<link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/dataTables.bootstrap.min.css">>
 	<link rel="stylesheet" href="css/bootstrap-social.css">
@@ -44,7 +45,7 @@ echo"<script>alert('Profile Updated Succssfully');</script>";
 	<link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/jquery-1.11.3-jquery.min.js"></script>
 <script type="text/javascript" src="js/validation.min.js"></script>
-<!-- <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript">
 function valid()
 {
