@@ -1,8 +1,8 @@
 <?php
-$DB_host = "localhost";
-$DB_user = "root";
-$DB_pass = "";
-$DB_name = "gym4";
+$DB_host = "us-cdbr-iron-east-05.cleardb.net";
+$DB_user = "b61024b9978bf4";
+$DB_pass = "1da2513a";
+$DB_name = "heroku_495aaa2cb1fa4bb";
 try
 {
  $DB_con = new PDO("mysql:host={$DB_host};dbname={$DB_name}",$DB_user,$DB_pass);
