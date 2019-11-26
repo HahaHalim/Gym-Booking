@@ -34,7 +34,7 @@ echo"<script>alert('Profile Updated Succssfully');</script>";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	<title>Profile Updation</title>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/dataTables.bootstrap.min.css">>
 	<link rel="stylesheet" href="css/bootstrap-social.css">
@@ -44,7 +44,7 @@ echo"<script>alert('Profile Updated Succssfully');</script>";
 	<link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/jquery-1.11.3-jquery.min.js"></script>
 <script type="text/javascript" src="js/validation.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> -->
 <script type="text/javascript">
 function valid()
 {
