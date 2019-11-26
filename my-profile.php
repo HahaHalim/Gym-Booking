@@ -3,8 +3,8 @@ session_start();
 include('includes/config.php');
 
 date_default_timezone_set('Asia/Kolkata');
-include('includes/checklogin.php');
-check_login();
+// include('includes/checklogin.php');
+// check_login();
 $aid=$_SESSION['id'];
 if(isset($_POST['update']))
 {
