@@ -1,10 +1,10 @@
 <?php
 session_start();
 		include("includes/config.php");
-		$mysql_hostname = "localhost";
-		$mysql_user = "root";
-		$mysql_password = "";
-		$mysql_database = "gym4";
+		$mysql_hostname = "us-cdbr-iron-east-05.cleardb.net";
+		$mysql_user = "b61024b9978bf4";
+		$mysql_password = "1da2513a";
+		$mysql_database = "heroku_495aaa2cb1fa4bb";
 		$prefix = "";
 		$bd = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password,$mysql_database);
 ?>
